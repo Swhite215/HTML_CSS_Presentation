@@ -49,20 +49,136 @@
       <section class="slides">
 
         <!-- DAY 1 -->
-        <section data-markdown>
-          ##Intro to Web Development Part Two: JavaScript &amp; jQuery
-          ###Week 1 Session 2
-        </section>
+      <section>
+          <section data-markdown>
+          ###CSS 101
+          Cascading Style Sheets
+          </section>
 
-        <section data-markdown>
-          ##Goals for tonight
-          - Homework Review
-          - Conditional Logic
-          - Conditional Statements
-        </section>
+          <section data-markdown>
+          ##CSS History
+          "The saga of CSS starts in 1994. Håkon Wium Lie works at CERN – the cradle of the Web – and the Web is starting to be used as a platform for electronic publishing. One crucial part of a publishing platform is missing, however: There is no way to style documents."
 
-        <section data-markdown>
-          ##Homework Review
+          -https://www.w3.org/Style/CSS20/history.html
+          </section>
+
+          <section data-markdown>
+            ##CSS Rules
+
+            Individual components of CSS are called rules
+          </section>
+          <section data-markdown>
+            ##CSS Rules
+
+            CSS rules are made up of two parts:
+
+            1. One or more selectors
+            2. One or more declarations
+            3. The declaration must be inside curly braces that follows the selector
+          </section>
+          <section data-markdown>
+            ##CSS Syntax
+
+            ![](images/cssSyntax.gif)
+          </section>
+          <section data-markdown>
+            ##CSS Comments
+
+            Just like HTML, CSS offers comments.
+
+            /\* COMMENTS GO HERE  \*/
+          </section>
+          <section data-markdown>
+            ##CSS Declarations
+
+            Declarations are made up of the property and value of
+the style you want to apply.
+
+            ![](images/cssSyntax.gif)
+          </section>
+          <section data-markdown>
+            ##CSS Selector
+
+            The selector instructs the browser to search the page
+for any HTML element that matches the given
+criteria. It applies any applicable declarations to that
+element.
+          </section>
+          <section data-markdown>
+            ##CSS Selector - Element
+
+            Elements can be selected by their element name. In
+this case, all elements of that element type will be
+selected and have the styles applied.
+          </section>
+          <section data-markdown>
+            ##CSS Selector - Element
+
+            ![](images/elementSelector.PNG)
+          </section>
+          <section data-markdown>
+            ##CSS Selector - Class
+
+            Elements can be selected based on HTML attributes
+such as class. In this case all elements that have a
+matching class attribute will be selected.
+          </section>
+          <section data-markdown>
+            ##CSS Selector - Class
+
+            ![](images/classSelector.PNG)
+          </section>
+          <section data-markdown>
+            ##CSS Selector - ID
+
+            Elements can also be selected based on HTML
+attribute ID. In this case only one element would be
+selected, as HTML IDs are intended to be unique.
+          </section>
+          <section data-markdown>
+            ##CSS Selector - ID
+
+            ![](images/idSelector.PNG)
+          </section>
+          <section data-markdown>
+            ##CSS Selector - Descendant Selectors
+
+            Selectors can be combined to become more speciÒc.
+This example selects searches for any paragraph tag
+that is nested inside a div tag.
+
+![](images/childSelector.PNG)
+          </section>
+          <section data-markdown>
+            ##CSS Selector - Multiple
+
+            In addition a set of declarations can be applied to
+more than one selector by listing a number of
+comma-separated selectors.
+
+![](images/multiSelector.PNG)
+          </section>
+          <section data-markdown>
+            ##CSS Selector - Practice
+
+            Write a selector for the following:
+
+            1. Section Element
+            2. Class of box-shadow
+            3. ID of title
+            4. All the above together
+            5. All input elements located inside form elements
+          </section>
+          <section data-markdown>
+            ##CSS Properties
+
+            There are literally hundreds of css properties that are
+  available for use. We don't have time to go over more
+  than just a few. We will go over a few of the most
+  common. However, the best strategy is to google for
+  styling options as you're working
+          </section>
+
         </section>
         <section>
           <section data-markdown>
