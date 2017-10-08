@@ -189,176 +189,31 @@ comma-separated selectors.
             ![](images/colorCssProperties.PNG)
           </section>
           <section data-markdown>
-            ##Size CSS Properties
+            ##The Box Model
 
-            ![](images/sizeCssProperties.PNG)
+            Every HTML element is in a box, regardless of its
+visible shape.
+          </section>
+          <section data-markdown>
+            ##The Box Model
+
+            The total size of an element is a combination of the
+following:
+
+1. Content
+2. Padding
+3. Border
+4. Margin
+          </section>
+          <section data-markdown>
+            ##The Box Model
+
+            ![](images/CSS 2.PNG)
+
           </section>
 
         </section>
-        <section>
-          <section data-markdown>
-            ##Conditional Logic
-          </section>
-          <section data-markdown>
-            ###Slides from other course*
-
-          </section>
-        </section>
-        <section>
-          <section data-markdown>
-            ###Conditional Statements
-          </section>
-          <section data-markdown>
-            ###If/Else Statements
-            If/else statements are a type of conditional statement.
-
-            Code inside of an if statement is only executed if certain conditions are met.
-          </section>
-          <section>
-            <pre>
-<code>
-if(condition) {
-  //Statement 1
-}
-</code>
-            </pre>
-            <pre>
-<code>
-var age = 16;
-if (age>6) {
-  console.log("The age is greater than 6!");
-}
-</code>
-            </pre>
-          </section>
-          <section>
-            <pre>
-          <code>
-  if (condition) {
-    //Statement 1
-  } else {
-    //Statement 2
-  }
-          </code>
-            </pre>
-            <pre>
-          <code>
-  var age = 16;
-  if (age>6) {
-    console.log("The age is greater than 6!");
-  } else {
-    console.log("The age is not greater than 6!");
-  }
-          </code>
-            </pre>
-          </section>
-
-          <section>
-            <pre>
-          <code>
-if (condition1) {
-//Statement 1
-} else if (condition2) {
-//Statement 2
-} else {
-  //Statement 3
-}
-          </code>
-            </pre>
-            <pre>
-          <code>
-var age = 17;
-if (age>16) {
-console.log("The age is greater than 16!");
-} else if(age>6) {
-  console.log("The age is greater than 6!")
-} else {
-console.log("The age is not greater than 6!");
-}
-          </code>
-            </pre>
-          </section>
-
-
-        </section>
-
-        <section>
-          <section data-markdown>
-            ###Code Along
-            Setup
-            1. Create a new HTML file named “javascript.html”.
-            1. Create a new file named “script.js”.
-          </section>
-          <section>
-<pre><code>&lt;html&gt;
-  &lt;head&gt;
-    <title>My Site!</title>
-    <script src="javascript.js"></script>
-  &lt;/head&gt;
-&lt;body&gt;
-    My site!
-  &lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-            <p>Your HTML file should look like this.</p>
-          </section>
-          <section data-markdown>
-            If you want, you can test your JavaScript in jsbin.com then add it to your “script.js” file.
-          </section>
-          <section data-markdown>
-            ###Directions
-            1. Create a verbal expression that uses concatenation. Your expression should contain at least 3 sentences and at least 4 variables.
-            1. Use variables and expressions to describe a math problem and its solution.
-          </section>
-          <section>
-            <h3>Example</h3>
-            <p>Sample code:</p>
-<pre><code>var faveFood = "Ice Cream!";
-console.log("My favorite food is " + faveFood);</code></pre>
-          </section>
-          <section>
-          <p>Sample output:</p>
-          <p><em>My favorite food is Ice Cream!</em></p>
-        </section>
-      </section>
-
-          <section data-markdown>
-            Any questions?
-          </section>
-
-          <section>
-            <section data-markdown>
-              ##Homework
-            </section>
-            <section data-markdown class='align-left' style="font-size: 70%">
-            ### What Should I Wear?
-
-            Write a script that will tell you what to wear based on the temperature and type of event.
-
-            Event type | suggestion
-            --- | ---
-            casual | "something comfy"
-            semi-formal | "a polo or "
-            formal | "a suit"
-
-            Temperature | suggestion
-            --- | ---
-            Less than 54 degrees | "a coat"
-            54 - 70 degrees | "a jacket"
-            more than 70 degrees | "no jacket"
-          </section>
-          <section data-markdown class='align-left'>
-            ### What should I wear
-
-            Display the results for a given set of decisions.
-
-            Some sample output:
-
-            ![Sample Output for Code Challenge 1](images/codeChallenge1Output.png)
-          </section>
-          </section>
-
-          </section>
+        
       </div><!-- END SLIDES DIV -->
 
     <script src="reveal/lib/js/head.min.js"></script>
